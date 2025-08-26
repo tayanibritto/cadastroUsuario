@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main>
+        <h1>Cadastro de usuário</h1>
+        <form id="formCadastro">
+            <label for="nomeCompleto">Nome Completo:</label>
+            <input id="nomeCompleto" name ="nomeCompleto" type="text" required>
+
+            <label for="cpf">CPF:</label>
+            <input id="cpf" name ="cpf" type="number" required>
+
+            <label for="cep">Pesquisar CEP:</label>
+            <input id="cep" name ="cep" type="number" required>
+
+            <button type="submit" id="pesquisarCEP">Pesquisar CEP</button>
+
+            <label for="logradouro">Logradouro:</label>
+            <input id="logradouro" name ="logradouro" type="text" required>
+
+            <label for="bairro">Bairro:</label>
+            <input id="bairro" name ="bairro" type="text" required>
+
+            <label for="cidade">Cidade:</label>
+            <input id="cidade" name ="cidade" type="text" required>
+
+            <label for="estado">Estado:</label>
+            <input id="estado" name ="estado" type="text" required>
+
+            <label for="numero">Número:</label>
+            <input id="numero" name ="numero" type="text" required>
+
+            <button id="salvarInformacoes">Salvar Informações</button>
+        </form>
+    </main>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
